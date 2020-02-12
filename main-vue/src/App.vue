@@ -47,6 +47,7 @@
       </a-layout-header>
       <a-layout-content :style="{ margin: '24px 16px', padding: '24px', background: '#fff', minHeight: '280px' }">
         <div>
+          <router-view />
           <!-- 在主项目View中必须添加挂载子项目的标签 -->
           <div v-html="content">content</div>
         </div>
